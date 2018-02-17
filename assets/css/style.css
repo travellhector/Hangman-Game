@@ -1,0 +1,38 @@
+
+
+
+
+/* container is the over all container of the page content */
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.content {
+    background: red;
+    width: 480px;
+    float: left;
+    height: 480px;
+}
+/* to style to blanks for curent word */
+#currentWord span{
+    margin: 10px;
+}
+
+/* header contains the h1 and h2 tags */
+header {
+    background: black;
+    height: 150px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.imageSection {
+    background: red;
+    width: 480px;
+    margin-right: 20px;
+    float: left;
+    height: 480px;
+}
+

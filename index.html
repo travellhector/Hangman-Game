@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The Hangman Game
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+
+      <div class="container">
+        <header>
+            <h1>Basketball</h1>
+            <h2>Hangman</h2>
+        </header>
+        <div class="imageSection">
+
+        </div>
+        <div class="content">
+            <p>Press Any Key to Get Started!</p>
+
+            <div>Wins
+                <span id="wins">0</span>
+            </div>
+
+            <p>Current Word</p>
+            <!-- Blank div is for the javascript to create blank elements for current word -->
+            <div id="currentWord"> </div>
+
+            <p>Number of Guess Remaining</p>
+
+            <div id="guessCount">13</div>
+
+            <p>Letters Already Guessed</p>
+            <!-- blank div is to rack letters that have already been guessed -->
+            <div id="guessed"> </div>
+
+        </div>
+      </div>  
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+    
+</html>
+
